@@ -1,0 +1,19 @@
+■descsiption
+	unityで、背景を真っ暗にしたい.
+
+■参考URL
+	http://tsubakit1.hateblo.jp/entry/2015/03/26/011351
+	
+■手順
+*	Window/Lighting
+	*	Skybox = None(material)
+	*	Ambient Source = Color
+			Ambient Color = black.
+			
+	*	Ambient Intensity = 0
+			
+	
+*	Main Camera
+	*	Background = black : by color picker.
+
+*	画面内のLight : Intensityを低く.
